@@ -12,7 +12,7 @@ export const deductionPosts: Post[] = [
       "세금을 줄이는 가장 기본은 인적공제예요. 본인과 부양가족 1인당 150만 원씩 빠지는 기본공제, 그리고 경로·장애인 추가공제까지 쉽게 정리했어요.",
     category: "공제",
     author: "절세노트 편집팀",
-    date: "2026-05-21",
+    date: "2026-05-13",
     image:
       "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
     readTime: "7분",
@@ -65,7 +65,7 @@ export const deductionPosts: Post[] = [
 <p>가장 흔한 실수가 형제자매끼리 부모님을 중복으로 공제받는 거예요. 한 명의 부양가족은 한 사람만 공제받을 수 있어요. 형제가 각자 부모님을 올리면 나중에 한쪽이 가산세를 물 수 있으니, 가족끼리 미리 정리해 두는 게 좋아요. 부녀자공제와 한부모공제처럼 중복이 안 되는 항목도 있으니 유리한 쪽으로 하나만 선택하면 돼요.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 공제 항목과 한도는 매년 바뀔 수 있어요. 신고 전 홈택스나 세무사를 통해 본인 케이스를 꼭 확인하세요. 이 글은 2026년 기준 일반 정보예요.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-21</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-13</p>
 `,
   },
   {
@@ -75,7 +75,7 @@ export const deductionPosts: Post[] = [
       "연금저축과 IRP는 가장 확실한 절세 수단이에요. 합산 900만 원까지 세액공제되고, 소득에 따라 16.5% 또는 13.2%가 적용돼요. 한도와 배분법을 정리했어요.",
     category: "공제",
     author: "절세노트 편집팀",
-    date: "2026-05-22",
+    date: "2026-05-17",
     image:
       "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -135,7 +135,7 @@ export const deductionPosts: Post[] = [
 <p>한 가지 꼭 기억할 점이 있어요. 세액공제를 받은 금액을 연금 수령이 아니라 중간에 빼면, 기타소득세 16.5%가 부과돼요. 그동안 받은 절세 효과가 사라질 수 있다는 뜻이죠. 그래서 연금저축·IRP는 정말 노후까지 묻어둘 수 있는 자금으로만 채우는 게 안전해요. 자세한 내용은 가입한 금융기관이나 <a href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer">국세청</a> 안내를 확인하세요.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 공제 한도와 공제율은 세법 개정에 따라 달라질 수 있어요. 이 글은 2026년 기준이며, 본인 케이스는 신고 전 꼭 확인하세요.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-22</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-17</p>
 `,
   },
   {
@@ -145,7 +145,7 @@ export const deductionPosts: Post[] = [
       "같은 돈을 써도 신용카드보다 체크카드·현금영수증이 공제율이 높아요. 총급여 25% 기준선과 결제수단별 공제율, 추가공제 항목까지 쉽게 풀어드려요.",
     category: "공제",
     author: "절세노트 편집팀",
-    date: "2026-05-24",
+    date: "2026-05-20",
     image:
       "https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=1200&q=80",
     readTime: "7분",
@@ -204,7 +204,7 @@ export const deductionPosts: Post[] = [
 <p>특히 보험료나 교육비처럼 별도 세액공제를 받는 항목은 카드 소득공제와 중복되지 않으니 헷갈리지 마세요.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 공제율과 한도는 매년 조정될 수 있어요. 2026년 기준 일반 정보이며, 구체적인 적용은 홈택스 연말정산 간소화 자료로 확인하세요.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-24</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-20</p>
 `,
   },
 ];

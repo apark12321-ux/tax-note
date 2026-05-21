@@ -12,7 +12,7 @@ export const businessPosts: Post[] = [
       "사업을 시작했다면 일정 기간 안에 사업자등록을 해야 합니다. 등록 시기, 일반과세자와 간이과세자의 선택, 업종 코드까지 첫 사업자가 알아야 할 기본을 정리합니다.",
     category: "사업자세무",
     author: "절세노트 편집팀",
-    date: "2026-05-22",
+    date: "2026-05-15",
     image:
       "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -62,7 +62,7 @@ export const businessPosts: Post[] = [
 <p>사업자등록 시 기재하는 업종 코드는 이후 경비율, 기장의무 판단 등에 영향을 미칩니다. 실제 사업 내용과 맞는 업종으로 등록해야 하며, 여러 활동을 한다면 주업종과 부업종을 함께 등록할 수 있습니다. 처음에 잘못 등록하면 나중에 정정해야 하므로, 자신의 사업 형태에 맞는 업종을 신중히 선택하시기 바랍니다. 자세한 안내는 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스</a>에서 확인할 수 있습니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반적인 세무 정보 안내이며, 세무 상담을 대체하지 않습니다. 과세 유형 선택 등 구체적 판단은 세무 전문가와 상담하시기 바랍니다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-22</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-15</p>
 `,
   },
   {
@@ -72,7 +72,7 @@ export const businessPosts: Post[] = [
       "부가가치세는 매출세액에서 매입세액을 뺀 금액을 신고·납부하는 세금입니다. 신고 시기, 매입세액 공제 요건, 일반과세자와 간이과세자의 차이를 정리합니다.",
     category: "사업자세무",
     author: "절세노트 편집팀",
-    date: "2026-05-24",
+    date: "2026-05-19",
     image:
       "https://images.unsplash.com/photo-1638913662252-70efce1e60a7?auto=format&fit=crop&w=1200&q=80",
     readTime: "9분",
@@ -132,7 +132,7 @@ export const businessPosts: Post[] = [
 <p>부가세 신고를 기한 내 하지 않으면 무신고가산세와 납부지연가산세가 부과됩니다. 또한 세금계산서 관련 의무를 지키지 않으면 별도의 가산세가 더해집니다. 신고가 복잡하게 느껴진다면 홈택스의 도움 자료를 활용하거나, 거래가 많은 사업자는 세무 대리인의 도움을 받는 것이 안전합니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반 정보입니다. 과세 유형과 공제 요건은 세법 개정에 따라 달라질 수 있으므로, 구체적 신고는 홈택스 또는 세무 전문가와 확인하시기 바랍니다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-24</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-19</p>
 `,
   },
   {
@@ -142,8 +142,8 @@ export const businessPosts: Post[] = [
       "프리랜서에게 대금을 줄 때 떼는 3.3%, 이것이 바로 원천징수입니다. 원천징수 의무자의 역할, 신고·납부 절차, 지급명세서 제출까지 사업자 관점에서 정리합니다.",
     category: "사업자세무",
     author: "절세노트 편집팀",
-    date: "2026-05-25",
-    updated: "2026-05-26",
+    date: "2026-05-21",
+    updated: "2026-05-21",
     image:
       "https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -193,7 +193,7 @@ export const businessPosts: Post[] = [
 <p>원천징수로 끝이 아닙니다. 누구에게 얼마를 지급하고 얼마를 원천징수했는지 정리한 지급명세서를 정해진 기한에 제출해야 합니다. 지급명세서를 제출하지 않거나 늦게 제출하면 가산세가 부과됩니다. 인적용역 사업소득은 간이지급명세서를 매월 제출하는 의무가 강화되어 있으므로, 지급이 있을 때마다 빠짐없이 챙기는 것이 중요합니다. 자세한 제출 기한과 방법은 <a href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer">국세청</a>에서 확인하시기 바랍니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반 정보입니다. 원천징수 대상과 세율, 제출 기한은 소득 종류에 따라 다르므로, 구체적 사항은 홈택스 또는 세무 전문가와 확인하시기 바랍니다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-26</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-21</p>
 `,
   },
 ];

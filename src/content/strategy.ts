@@ -12,7 +12,7 @@ export const strategyPosts: Post[] = [
       "노란우산공제는 폐업·노후 대비와 소득공제를 동시에 잡는 제도다. 소득 규모에 따라 최대 500만 원까지 소득공제되며 압류로부터도 보호된다. 핵심만 정리했다.",
     category: "절세전략",
     author: "절세노트 편집팀",
-    date: "2026-05-21",
+    date: "2026-05-14",
     image:
       "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -64,7 +64,7 @@ export const strategyPosts: Post[] = [
 <p>가입과 한도 확인은 중소기업중앙회 또는 가까운 금융기관을 통해 진행할 수 있다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 위 내용은 2026년 기준 참고용 정보다. 실제 공제 한도와 절세 효과는 개인의 소득 구간과 상황에 따라 다르므로, 가입 전 전문가 상담을 권한다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-21</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-14</p>
 `,
   },
   {
@@ -74,7 +74,7 @@ export const strategyPosts: Post[] = [
       "프리랜서의 절세는 필요경비를 얼마나 인정받느냐에 달려 있다. 업무 관련성, 적격증빙, 자주 놓치는 경비 항목까지 실전 기준으로 정리했다.",
     category: "절세전략",
     author: "절세노트 편집팀",
-    date: "2026-05-23",
+    date: "2026-05-19",
     image:
       "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
     readTime: "9분",
@@ -131,7 +131,7 @@ export const strategyPosts: Post[] = [
 <p>가장 현실적인 조언은 사업용 카드를 따로 만들어 업무 지출을 분리하는 것이다. 개인 지출과 섞이지 않으면 경비 정리가 훨씬 쉬워지고, 누락도 줄어든다. 영수증은 사진으로 모아두고, 정기 구독료는 목록으로 관리하면 신고 시즌에 허둥대지 않는다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 위 내용은 2026년 기준 참고용 정보다. 경비 인정 범위는 업종과 사실관계에 따라 달라지므로, 판단이 어려운 항목은 세무 전문가와 상담하기를 권한다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-23</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-19</p>
 `,
   },
   {
@@ -141,7 +141,7 @@ export const strategyPosts: Post[] = [
       "세율이 뛰는 구간 경계에 있다면 과세표준을 한 단계 낮추는 것만으로 큰 절세가 가능하다. 공제 활용, 지출 시기 조절, 소득 분산의 원리를 설명한다.",
     category: "절세전략",
     author: "절세노트 편집팀",
-    date: "2026-05-25",
+    date: "2026-05-21",
     image:
       "https://images.unsplash.com/photo-1543286386-2e659306cd6c?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -191,7 +191,7 @@ export const strategyPosts: Post[] = [
 <p>모든 절세 설계의 대전제는 실질이다. 실제 거래와 지출에 근거한 절세는 정당하지만, 사실과 다른 비용을 만들거나 소득을 숨기는 것은 탈세이며 무거운 처벌과 가산세가 따른다. 절세는 제도가 허용한 범위 안에서 똑똑하게 활용하는 것이지, 사실을 왜곡하는 것이 아니다. 판단이 애매하다면 반드시 전문가의 확인을 받는 것이 안전하다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 위 내용은 2026년 기준 참고용 정보다. 실제 절세 효과는 개인 상황에 따라 다르며, 구체적인 설계는 세무 전문가 상담을 권한다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-25</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-21</p>
 `,
   },
 ];

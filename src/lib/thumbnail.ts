@@ -43,20 +43,16 @@ export function thumbnailFor(id: string, category: CategorySlug): string {
     </linearGradient>
   </defs>
   <rect width="400" height="240" fill="url(#g)"/>
-  <g transform="rotate(${rot} 200 120)" opacity="0.18" fill="none" stroke="${p.accent}" stroke-width="2">
+  <g transform="rotate(${rot} 200 120)" opacity="0.15" fill="none" stroke="${p.accent}" stroke-width="2">
     <circle cx="${cx * 4}" cy="${cy * 2.4}" r="${r1 * 3}"/>
     <circle cx="${cx * 4}" cy="${cy * 2.4}" r="${r2 * 3}"/>
-    <line x1="0" y1="60" x2="400" y2="60"/>
-    <line x1="0" y1="120" x2="400" y2="120"/>
-    <line x1="0" y1="180" x2="400" y2="180"/>
   </g>
-  <g opacity="0.9" fill="${p.accent}">
-    <rect x="300" y="170" width="14" height="40" rx="2"/>
-    <rect x="320" y="150" width="14" height="60" rx="2"/>
-    <rect x="340" y="120" width="14" height="90" rx="2"/>
-    <rect x="360" y="100" width="14" height="110" rx="2"/>
+  <g opacity="0.22" fill="${p.accent}" transform="translate(0 -16)">
+    <rect x="316" y="150" width="12" height="58" rx="2"/>
+    <rect x="334" y="128" width="12" height="80" rx="2"/>
+    <rect x="352" y="104" width="12" height="104" rx="2"/>
   </g>
-  <text x="28" y="210" font-family="sans-serif" font-size="20" font-weight="700" fill="#ffffff" opacity="0.92">${category}</text>
+  <text x="200" y="120" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="30" font-weight="800" fill="#ffffff" opacity="0.96">${category}</text>
 </svg>`;
 
   return `data:image/svg+xml;utf8,${encodeURIComponent(svg)}`;

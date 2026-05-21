@@ -15,7 +15,7 @@ export const SITE = {
 
   // 콘텐츠 운영 시작일 = 첫 글 발행일 = 개인정보처리방침 시행일
   // (실제 첫 게시일로 통일되어야 논리적 모순이 없습니다)
-  launchDate: "2026-05-21",
+  launchDate: "2026-05-12",
 
   // 운영자/문의 (실제 수신 가능한 주소로 교체 권장)
   contactEmail: "contact@jeolse-note.kr",

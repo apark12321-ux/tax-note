@@ -111,7 +111,7 @@ export default function PostDetail() {
       </div>
 
       {/* 대표 이미지 */}
-      <div className="aspect-[5/2] rounded-2xl overflow-hidden mb-8 bg-gray-100">
+      <div className="aspect-[16/7] rounded-2xl overflow-hidden mb-8 bg-gray-100">
         <img
           src={thumbnailFor(post.id, post.category)}
           alt={post.title}

@@ -13,7 +13,7 @@ export const incomeTaxPosts: Post[] = [
       "프리랜서, 자영업자, 두 곳 이상에서 급여를 받은 직장인이라면 5월 종합소득세 신고 대상일 수 있습니다. 2026년 신고 기간과 대상자 판단 기준을 정리했습니다.",
     category: "종합소득세",
     author: "절세노트 편집팀",
-    date: "2026-05-21",
+    date: "2026-05-12",
     image:
       "https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1200&q=80",
     readTime: "9분",
@@ -85,7 +85,7 @@ export const incomeTaxPosts: Post[] = [
 <p>홈택스의 모두채움 서비스나 신고도움 자료를 활용하면 상당 부분 자동으로 채워지므로, 처음 신고하는 분도 어렵지 않게 시작할 수 있습니다. 자세한 신고 방법은 <a href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer">국세청</a> 및 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스</a>에서 확인하실 수 있습니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반적인 세무 정보 안내이며, 세무 상담을 대체하지 않습니다. 본인의 정확한 신고 대상 여부와 세액은 국세청 홈택스 또는 세무 전문가와 확인하시기 바랍니다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-21</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-12</p>
 `,
   },
   {
@@ -95,7 +95,7 @@ export const incomeTaxPosts: Post[] = [
       "종합소득세는 6%부터 45%까지 8단계 누진세율로 매겨집니다. 과세표준 구간과 누진공제액을 활용한 정확한 세액 계산법을 예시와 함께 설명합니다.",
     category: "종합소득세",
     author: "절세노트 편집팀",
-    date: "2026-05-22",
+    date: "2026-05-16",
     image:
       "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -170,7 +170,7 @@ export const incomeTaxPosts: Post[] = [
 <p>구간이 바뀌는 경계, 특히 15%에서 24%로 뛰는 5,000만 원 부근에서는 공제 항목을 얼마나 확보하느냐가 실효세율을 크게 좌우합니다. 과세표준을 한 구간 아래로 낮출 수 있다면 절세 효과가 상당히 커집니다. 구체적인 공제·절세 방법은 별도의 글에서 자세히 다룹니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 정보이며, 세율과 구간은 세법 개정에 따라 달라질 수 있습니다. 정확한 세액은 국세청 홈택스 또는 세무 전문가와 확인하시기 바랍니다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-22</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-16</p>
 `,
   },
   {
@@ -180,8 +180,8 @@ export const incomeTaxPosts: Post[] = [
       "종합소득세 신고에는 장부를 쓰는 방법과 경비율로 추산하는 방법이 있습니다. 간편장부·복식부기 의무와 단순경비율·기준경비율 적용 기준을 정리합니다.",
     category: "종합소득세",
     author: "절세노트 편집팀",
-    date: "2026-05-23",
-    updated: "2026-05-24",
+    date: "2026-05-18",
+    updated: "2026-05-20",
     image:
       "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=1200&q=80",
     readTime: "10분",
@@ -249,7 +249,7 @@ export const incomeTaxPosts: Post[] = [
 <p>매출 규모가 작고 경비가 거의 없는 초기 프리랜서라면 추계신고로 간단히, 매출이 커지고 실제 경비 지출이 많아지면 장부신고로 전환하는 것이 일반적인 흐름입니다. 평소 적격증빙(세금계산서, 카드, 현금영수증)을 모아두면 어느 방식이든 선택지가 넓어집니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반 정보입니다. 업종별 기장의무 기준과 경비율은 매년 고시되므로, 본인 사업장 기준은 국세청 홈택스에서 반드시 확인하시기 바랍니다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-24</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-20</p>
 `,
   },
 ];
