@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>종합소득세 세율 구조 완벽 이해 — 누진세율과 누진공제액 (2026년) | 절세노트</title>
+    <meta name="description" content="종합소득세는 6%부터 45%까지 8단계 누진세율로 매겨집니다. 과세표준 구간과 누진공제액을 활용한 정확한 세액 계산법을 예시와 함께 설명합니다." />
+    <link rel="canonical" href="https://jeolse-note.kr/post/income-2/종합소득세-세율-구조-완벽-이해-누진세율과-누진공제액-2026년" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="절세노트" />
+    <meta property="og:title" content="절세노트 — 어려운 세금을 쉽게, 절세는 정확하게" />
+    <meta property="og:description" content="종합소득세, 공제, 절세전략, 사업자세무를 쉽게 정리한 한국 세금 정보 가이드." />
+    <meta property="og:url" content="https://jeolse-note.kr/" />
+    <meta property="og:locale" content="ko_KR" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="절세노트 — 어려운 세금을 쉽게" />
+    <meta name="twitter:description" content="종합소득세, 공제, 절세전략, 사업자세무를 쉽게 정리한 한국 세금 정보 가이드." />
+
+    <!-- Google AdSense (승인 후 ca-pub-XXXXXXXXXX 를 실제 게시자 ID로 교체하세요) -->
+    <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossorigin="anonymous"></script>
+
+    <!-- 사이트 구조화 데이터 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "절세노트",
+      "url": "https://jeolse-note.kr/",
+      "description": "종합소득세, 공제, 절세전략, 사업자세무를 쉽게 정리한 한국 세금 정보 가이드.",
+      "inLanguage": "ko-KR",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://jeolse-note.kr/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "절세노트",
+      "url": "https://jeolse-note.kr/",
+      "description": "한국의 세금과 절세 정보를 쉽게 전달하는 정보 가이드."
+    }
+    </script>
+    <script type="module" crossorigin src="/assets/index-DOLXqPan.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-MRXWZ8OB.css">
+  </head>
+  <body>
+    <div id="root">
+    <article style="max-width:768px;margin:0 auto;padding:2rem 1rem">
+      <nav><a href="/">절세노트</a> &rsaquo; <a href="/category/%EC%A2%85%ED%95%A9%EC%86%8C%EB%93%9D%EC%84%B8">종합소득세</a></nav>
+      <h1>종합소득세 세율 구조 완벽 이해 — 누진세율과 누진공제액 (2026년)</h1>
+      <p>종합소득세는 6%부터 45%까지 8단계 누진세율로 매겨집니다. 과세표준 구간과 누진공제액을 활용한 정확한 세액 계산법을 예시와 함께 설명합니다.</p>
+      <div class="article-body">
+<div class="toc">
+  <p><strong>목차</strong></p>
+  <ul>
+    <li><a href="#section1">1. 누진세율이란</a></li>
+    <li><a href="#section2">2. 2026년 세율표 8단계</a></li>
+    <li><a href="#section3">3. 누진공제액으로 간편 계산</a></li>
+    <li><a href="#section4">4. 실제 계산 예시</a></li>
+    <li><a href="#section5">5. 구간 경계에서 주의할 점</a></li>
+  </ul>
+</div>
+
+<h2>"5천만 원 넘으면 세율이 확 오른다"는 말, 사실일까?</h2>
+<p>종합소득세를 처음 접하면 "소득이 한 구간만 넘어도 세금이 폭탄처럼 늘어난다"는 이야기를 듣게 됩니다. 절반은 맞고 절반은 오해입니다. 누진세율의 작동 방식을 정확히 이해하면, 막연한 두려움 대신 합리적인 계획을 세울 수 있습니다.</p>
+
+<h3 id="section1">1. 누진세율이란</h3>
+<p>대한민국 소득세는 소득이 높을수록 더 높은 세율을 적용하는 누진세 구조입니다. 중요한 점은, 소득이 상위 구간에 진입하더라도 <strong>전체 소득에 높은 세율이 적용되는 것이 아니라, 해당 구간을 초과한 부분에만 높은 세율이 적용</strong>된다는 것입니다.</p>
+<p>예를 들어 과세표준이 1,500만 원이라면, 1,400만 원까지는 6%, 그 초과분 100만 원에만 15%가 적용됩니다. 전체 1,500만 원에 15%가 붙는 것이 아닙니다.</p>
+
+<h3 id="section2">2. 2026년 세율표 8단계</h3>
+<p>2026년 기준 종합소득세 과세표준 구간과 세율은 다음과 같습니다.</p>
+<div class="not-prose my-6 overflow-x-auto">
+  <table class="w-full border-collapse text-sm">
+    <thead>
+      <tr class="bg-emerald-50">
+        <th class="border border-emerald-200 px-3 py-2 text-left font-semibold">과세표준</th>
+        <th class="border border-emerald-200 px-3 py-2 text-center font-semibold">세율</th>
+        <th class="border border-emerald-200 px-3 py-2 text-right font-semibold">누진공제액</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="border border-gray-200 px-3 py-2">1,400만 원 이하</td><td class="border border-gray-200 px-3 py-2 text-center">6%</td><td class="border border-gray-200 px-3 py-2 text-right">-</td></tr>
+      <tr><td class="border border-gray-200 px-3 py-2">1,400만 ~ 5,000만 원</td><td class="border border-gray-200 px-3 py-2 text-center">15%</td><td class="border border-gray-200 px-3 py-2 text-right">126만 원</td></tr>
+      <tr><td class="border border-gray-200 px-3 py-2">5,000만 ~ 8,800만 원</td><td class="border border-gray-200 px-3 py-2 text-center">24%</td><td class="border border-gray-200 px-3 py-2 text-right">576만 원</td></tr>
+      <tr><td class="border border-gray-200 px-3 py-2">8,800만 ~ 1억 5,000만 원</td><td class="border border-gray-200 px-3 py-2 text-center">35%</td><td class="border border-gray-200 px-3 py-2 text-right">1,544만 원</td></tr>
+      <tr><td class="border border-gray-200 px-3 py-2">1억 5,000만 ~ 3억 원</td><td class="border border-gray-200 px-3 py-2 text-center">38%</td><td class="border border-gray-200 px-3 py-2 text-right">1,994만 원</td></tr>
+      <tr><td class="border border-gray-200 px-3 py-2">3억 ~ 5억 원</td><td class="border border-gray-200 px-3 py-2 text-center">40%</td><td class="border border-gray-200 px-3 py-2 text-right">2,594만 원</td></tr>
+      <tr><td class="border border-gray-200 px-3 py-2">5억 ~ 10억 원</td><td class="border border-gray-200 px-3 py-2 text-center">42%</td><td class="border border-gray-200 px-3 py-2 text-right">3,594만 원</td></tr>
+      <tr><td class="border border-gray-200 px-3 py-2">10억 원 초과</td><td class="border border-gray-200 px-3 py-2 text-center">45%</td><td class="border border-gray-200 px-3 py-2 text-right">6,594만 원</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h3 id="section3">3. 누진공제액으로 간편 계산</h3>
+<p>구간별로 나눠 계산하는 것은 번거롭기 때문에, 실무에서는 누진공제액을 활용한 간편식을 사용합니다.</p>
+<ul>
+  <li><strong>산출세액 = 과세표준 × 세율 − 누진공제액</strong></li>
+</ul>
+<p>이 공식 하나면 어느 구간이든 한 번에 산출세액을 구할 수 있습니다. 누진공제액이 바로 "낮은 구간에 낮은 세율을 적용한 효과"를 한꺼번에 반영한 값이기 때문입니다.</p>
+
+<h3 id="section4">4. 실제 계산 예시</h3>
+<p>과세표준이 5,000만 원인 경우를 보겠습니다.</p>
+<ul>
+  <li>5,000만 원 × 24% = 1,200만 원</li>
+  <li>1,200만 원 − 누진공제 576만 원 = <strong>624만 원</strong></li>
+</ul>
+<p>참고로 여기에 산출세액의 10%인 지방소득세가 별도로 더해집니다. 또한 과세표준은 매출이 아니라 매출에서 필요경비와 각종 공제를 뺀 금액이라는 점을 기억해야 합니다.</p>
+
+<h3 id="section5">5. 구간 경계에서 주의할 점</h3>
+<p>구간이 바뀌는 경계, 특히 15%에서 24%로 뛰는 5,000만 원 부근에서는 공제 항목을 얼마나 확보하느냐가 실효세율을 크게 좌우합니다. 과세표준을 한 구간 아래로 낮출 수 있다면 절세 효과가 상당히 커집니다. 구체적인 공제·절세 방법은 별도의 글에서 자세히 다룹니다.</p>
+
+<p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 정보이며, 세율과 구간은 세법 개정에 따라 달라질 수 있습니다. 정확한 세액은 국세청 홈택스 또는 세무 전문가와 확인하시기 바랍니다.</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-22</p>
+</div>
+    </article></div>
+  </body>
+</html>
