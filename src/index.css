@@ -1,0 +1,85 @@
+@import "tailwindcss";
+@import "@fontsource-variable/geist";
+
+:root {
+  --brand: #047857;
+  --brand-dark: #065f46;
+  --brand-light: #d1fae5;
+  --ink: #1f2937;
+  --muted: #6b7280;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: "Geist Variable", -apple-system, BlinkMacSystemFont,
+    "Apple SD Gothic Neo", "Pretendard", "Malgun Gothic", sans-serif;
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  word-break: keep-all;
+}
+
+:target { scroll-margin-top: 90px; }
+
+/* ===== 본문(prose) 스타일 ===== */
+.article-body { line-height: 1.85; font-size: 1.0625rem; color: #374151; }
+.article-body h2 { font-size: 1.5rem; font-weight: 700; color: #111827; margin-top: 2.5rem; margin-bottom: 1rem; line-height: 1.4; }
+.article-body h3 { font-size: 1.2rem; font-weight: 700; color: #047857; margin-top: 2rem; margin-bottom: 0.75rem; padding-left: 0.75rem; border-left: 4px solid #10b981; }
+.article-body p { margin-bottom: 1.1rem; }
+.article-body ul { margin: 1rem 0 1.4rem; padding-left: 0; list-style: none; }
+.article-body ul li { position: relative; padding-left: 1.4rem; margin-bottom: 0.6rem; }
+.article-body ul li::before { content: ""; position: absolute; left: 0.2rem; top: 0.75rem; width: 0.4rem; height: 0.4rem; border-radius: 9999px; background: #10b981; }
+.article-body strong { color: #111827; font-weight: 700; }
+.article-body a { color: #047857; text-decoration: underline; text-underline-offset: 2px; }
+.article-body a:hover { color: #065f46; }
+
+/* ===== 목차 5가지 스타일 ===== */
+/* 1) toc - 회색 박스 */
+.article-body .toc { background: #f3f4f6; border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
+.article-body .toc p { margin-bottom: 0.6rem; color: #374151; }
+.article-body .toc ul { margin: 0; }
+.article-body .toc li { padding-left: 0; margin-bottom: 0.4rem; }
+.article-body .toc li::before { display: none; }
+.article-body .toc a { text-decoration: none; color: #4b5563; }
+.article-body .toc a:hover { color: #047857; }
+
+/* 2) toc-card - 흰 카드 + 그림자 */
+.article-body .toc-card { background: #fff; border: 1px solid #e5e7eb; border-radius: 1rem; padding: 1.5rem; margin: 1.5rem 0 2rem; box-shadow: 0 4px 16px rgba(0,0,0,0.05); }
+.article-body .toc-card p { margin-bottom: 0.75rem; color: #047857; }
+.article-body .toc-card ul { margin: 0; }
+.article-body .toc-card li { padding-left: 1.25rem; margin-bottom: 0.5rem; }
+.article-body .toc-card li::before { content: "\203A"; background: transparent; color: #10b981; font-weight: 700; top: 0; left: 0; width: auto; height: auto; }
+.article-body .toc-card a { text-decoration: none; color: #374151; }
+.article-body .toc-card a:hover { color: #047857; }
+
+/* 3) toc-minimal - 왼쪽 강조선 */
+.article-body .toc-minimal { border-left: 3px solid #10b981; padding: 0.5rem 0 0.5rem 1.25rem; margin: 1.5rem 0 2rem; }
+.article-body .toc-minimal p { margin-bottom: 0.5rem; font-size: 0.95rem; letter-spacing: 0.02em; color: #6b7280; }
+.article-body .toc-minimal ul { margin: 0; }
+.article-body .toc-minimal li { padding-left: 0; margin-bottom: 0.35rem; }
+.article-body .toc-minimal li::before { display: none; }
+.article-body .toc-minimal a { text-decoration: none; color: #4b5563; }
+.article-body .toc-minimal a:hover { color: #047857; text-decoration: underline; }
+
+/* 4) toc-numbered - 동그란 번호 */
+.article-body .toc-numbered { background: #ecfdf5; border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin: 1.5rem 0 2rem; }
+.article-body .toc-numbered p { margin-bottom: 0.75rem; color: #065f46; }
+.article-body .toc-numbered ul { margin: 0; counter-reset: toc; }
+.article-body .toc-numbered li { counter-increment: toc; padding-left: 2.25rem; margin-bottom: 0.6rem; position: relative; }
+.article-body .toc-numbered li::before { content: counter(toc); background: #10b981; color: #fff; border-radius: 9999px; width: 1.5rem; height: 1.5rem; display: flex; align-items: center; justify-content: center; font-size: 0.8rem; font-weight: 700; top: 0.1rem; left: 0; }
+.article-body .toc-numbered a { text-decoration: none; color: #374151; }
+.article-body .toc-numbered a:hover { color: #047857; }
+
+/* 5) toc-compact - 상하 굵은 구분선 */
+.article-body .toc-compact { border-top: 2px solid #111827; border-bottom: 2px solid #111827; padding: 1rem 0; margin: 1.5rem 0 2rem; }
+.article-body .toc-compact p { margin-bottom: 0.5rem; font-weight: 700; color: #111827; }
+.article-body .toc-compact ul { margin: 0; display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; }
+.article-body .toc-compact li { padding-left: 0; margin-bottom: 0; }
+.article-body .toc-compact li::before { display: none; }
+.article-body .toc-compact a { text-decoration: none; color: #4b5563; font-size: 0.95rem; }
+.article-body .toc-compact a:hover { color: #047857; }
+
+.article-body table { width: 100%; border-collapse: collapse; }
+
+.line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }

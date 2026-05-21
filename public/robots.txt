@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: Yeti
+Allow: /
+
+Sitemap: https://tax-note-phi.vercel.app/sitemap.xml

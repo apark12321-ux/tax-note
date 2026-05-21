@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/((?!post|category|about|notice|privacy|terms|assets|favicon|robots|ads|sitemap).*)", "destination": "/index.html" }
+  ]
+}
