@@ -72,7 +72,7 @@ const dates = [...srcAll.matchAll(/date:\s*"(\d{4}-\d{2}-\d{2})"/g)].map((m) => 
 ok(`발행일 ${dates.length}건 (범위 ${dates.sort()[0]} ~ ${dates.sort().slice(-1)[0]})`);
 
 // 7) 면책 문구 존재 (각 글에 "2026년 기준" 또는 면책 표현)
-const disclaimers = (srcAll.match(/세무 상담|참고용|일반 정보|일반적인 세무 정보/g) || []).length;
+const disclaimers = (srcAll.match(/세무 상담|참고용|일반 정보|일반적인 세무 정보|상담을 대체/g) || []).length;
 if (disclaimers >= contentBlocks.length) ok(`면책 문구 충분 (${disclaimers}건)`);
 else warn(`면책 문구 ${disclaimers}건 — 글 수(${contentBlocks.length}) 대비 확인 필요`);
 
