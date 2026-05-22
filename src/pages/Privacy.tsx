@@ -207,8 +207,8 @@ export default function Privacy() {
 
         {b.enabled && (
           <p className="text-sm text-gray-500 mt-8">
-            운영 사업자: {b.companyName} (대표 {b.representative}) · 사업자등록번호{" "}
-            {b.bizRegNo}
+            운영 사업자: {b.companyName} · 사업자등록번호 {b.bizRegNo} ·
+            통신판매업 신고번호 {b.mailOrderNo}
           </p>
         )}
       </div>

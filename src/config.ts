@@ -17,21 +17,23 @@ export const SITE = {
   // (실제 첫 게시일로 통일되어야 논리적 모순이 없습니다)
   launchDate: "2026-05-12",
 
-  // 운영자/문의 (실제 수신 가능한 주소로 교체 권장)
-  contactEmail: "contact@jeolse-note.kr",
+  // 운영자/문의 (실제 수신 가능한 주소)
+  contactEmail: "apark12321@gmail.com",
   privacyOfficer: {
-    name: "박예준",
-    email: "privacy@jeolse-note.kr",
+    name: "박예준", // 개인정보 보호책임자 (사업자 대표와 별도 지정 — 개인정보보호법 제31조)
+    email: "apark12321@gmail.com",
   },
 
-  // 사업자 정보 (사업자 운영 시 사용 — 개인 운영이면 비워두면 됨)
+  // 사업자 정보 (사업자 운영 시 사용 — 개인 운영이면 enabled: false)
+  // ⚠️ 대표자명(representative)은 사용자 노출 페이지에서 사용하지 않습니다.
+  //    내부 데이터로만 보유하며, 푸터/약관/소개에는 상호와 이메일만 노출합니다.
   business: {
     enabled: true, // false면 푸터/법적 페이지에서 사업자 정보 숨김
-    companyName: "알고파트너스",
-    representative: "박예준",
-    bizRegNo: "450-07-03104",
-    mailOrderNo: "제2025-인천서구-3321호",
-    address: "인천광역시 서구 청라커낼로 270",
+    companyName: "상상아트",
+    representative: "황별초", // 내부 보유용 — 화면에 출력하지 않음
+    bizRegNo: "272-14-01256",
+    mailOrderNo: "제2023-화성동탄-1098호",
+    address: "인천광역시 서구 크리스탈로 100",
   },
 } as const;
 

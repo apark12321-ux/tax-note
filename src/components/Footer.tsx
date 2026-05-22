@@ -51,7 +51,7 @@ export default function Footer() {
         {/* 사업자 정보 (사업자 운영 시) */}
         {b.enabled && (
           <div className="mt-10 pt-6 border-t border-gray-200 text-xs text-gray-400 leading-relaxed space-y-1">
-            <div>상호: {b.companyName} | 대표자: {b.representative}</div>
+            <div>상호: {b.companyName}</div>
             <div>사업자등록번호: {b.bizRegNo} | 통신판매업 신고번호: {b.mailOrderNo}</div>
             <div>주소: {b.address}</div>
           </div>
