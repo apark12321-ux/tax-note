@@ -33,6 +33,7 @@ const ICON: Record<string, (p: Pal) => string> = {
   shop: (p) => `<g transform="translate(252 48)"><path d="M4 36 L16 14 H92 L104 36 Z" fill="${p.accent}"/><rect x="8" y="36" width="92" height="72" fill="#fff"/><path d="M8 36 q12 12 24 0 q12 12 24 0 q12 12 24 0 q12 12 20 0" fill="none" stroke="${p.light}" stroke-width="3"/><rect x="24" y="56" width="26" height="52" fill="${p.bg2}"/><rect x="62" y="56" width="26" height="24" rx="3" fill="${p.light}"/></g>`,
   invoice: (p) => `<g transform="translate(256 46)"><rect x="0" y="4" width="92" height="116" rx="7" fill="#fff"/><rect x="14" y="22" width="40" height="7" rx="3.5" fill="${p.bg2}"/><rect x="14" y="40" width="64" height="5" rx="2.5" fill="${p.light}"/><rect x="14" y="52" width="64" height="5" rx="2.5" fill="${p.light}"/><rect x="14" y="64" width="44" height="5" rx="2.5" fill="${p.light}"/><circle cx="64" cy="92" r="20" fill="none" stroke="${p.accent}" stroke-width="5"/><text x="64" y="99" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="800" fill="${p.accent}">%</text></g>`,
   payout: (p) => `<g transform="translate(252 44)"><circle cx="40" cy="30" r="22" fill="${p.accent}"/><text x="40" y="38" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="800" fill="${p.bg}">&#8361;</text><path d="M2 116 q0 -34 36 -34 h28 q22 0 22 -14 q0 -8 -10 -8 h-30" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/><path d="M48 60 h22 q12 0 12 10" fill="none" stroke="${p.light}" stroke-width="8" stroke-linecap="round"/></g>`,
+  deadline: (p) => `<g transform="translate(256 48)"><circle cx="52" cy="60" r="50" fill="#fff"/><circle cx="52" cy="60" r="50" fill="none" stroke="${p.light}" stroke-width="3"/><circle cx="52" cy="60" r="6" fill="${p.bg2}"/><path d="M52 60 V28" stroke="${p.bg2}" stroke-width="6" stroke-linecap="round"/><path d="M52 60 L74 70" stroke="${p.accent}" stroke-width="6" stroke-linecap="round"/><g transform="translate(86 4)"><circle cx="14" cy="14" r="14" fill="${p.accent}"/><rect x="11" y="6" width="6" height="11" rx="3" fill="${p.bg}"/><circle cx="14" cy="20" r="2.4" fill="${p.bg}"/></g></g>`,
 };
 
 // ── 글 id → [일러스트, 짧은 라벨] ──────────────────────────
@@ -40,6 +41,7 @@ const ART_MAP: Record<string, [string, string]> = {
   "income-1": ["calendar", "신고 대상·기간"],
   "income-2": ["bars", "세율·누진공제"],
   "income-3": ["ledger", "장부 vs 추계"],
+  "income-4": ["deadline", "신고 마감·가산세"],
   "deduct-1": ["family", "인적공제"],
   "deduct-2": ["piggy", "연금저축·IRP"],
   "deduct-3": ["card", "신용카드 공제"],
