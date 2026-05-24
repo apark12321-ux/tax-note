@@ -82,7 +82,7 @@ export const incomeTaxPosts: Post[] = [
   <li><strong>경비 증빙:</strong> 세금계산서, 카드 매출전표, 현금영수증 등 적격증빙</li>
   <li><strong>공제 자료:</strong> 인적공제 대상자 정보, 노란우산·연금저축 납입 내역</li>
 </ul>
-<p>홈택스의 모두채움 서비스나 신고도움 자료를 활용하면 상당 부분 자동으로 채워지므로, 처음 신고하는 분도 어렵지 않게 시작할 수 있습니다. 자세한 신고 방법은 <a href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer">국세청</a> 및 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스</a>에서 확인하실 수 있습니다.</p>
+<p>홈택스의 모두채움 서비스나 신고도움 자료를 활용하면 상당 부분 자동으로 채워지므로, 처음 신고하는 분도 어렵지 않게 시작할 수 있습니다. 자세한 신고 방법은 <a href="https://www.nts.go.kr" target="_blank" rel="noopener noreferrer">국세청(nts.go.kr)</a> 및 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스(hometax.go.kr)</a>에서 확인하실 수 있습니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반적인 세무 정보 안내이며, 세무 상담을 대체하지 않습니다. 본인의 정확한 신고 대상 여부와 세액은 국세청 홈택스 또는 세무 전문가와 확인하시기 바랍니다.</p>
 <p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-12</p>
@@ -319,7 +319,7 @@ export const incomeTaxPosts: Post[] = [
 <p>특히 공제 항목을 놓치면 그만큼 세금을 더 내게 되므로, 시간이 촉박해도 공제 점검은 꼭 하시기 바랍니다.</p>
 
 <h3 id="section5">환급 대상자도 신고하세요</h3>
-<p>마지막으로 강조하고 싶은 점이 있습니다. 3.3%가 원천징수된 프리랜서나 경비·공제가 많은 분은 오히려 세금을 돌려받는 경우가 많습니다. 그런데 신고하지 않으면 환급도 받을 수 없습니다. "낼 세금이 없을 것 같아서" 신고를 건너뛰면 받을 수 있는 환급금까지 놓치는 셈입니다. 마감 전에 꼭 한 번 계산해 보세요. 신고는 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스</a>에서 직접 할 수 있습니다.</p>
+<p>마지막으로 강조하고 싶은 점이 있습니다. 3.3%가 원천징수된 프리랜서나 경비·공제가 많은 분은 오히려 세금을 돌려받는 경우가 많습니다. 그런데 신고하지 않으면 환급도 받을 수 없습니다. "낼 세금이 없을 것 같아서" 신고를 건너뛰면 받을 수 있는 환급금까지 놓치는 셈입니다. 마감 전에 꼭 한 번 계산해 보세요. 신고는 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스(hometax.go.kr)</a>에서 직접 할 수 있습니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반 정보이며 세무 상담을 대체하지 않습니다. 가산세 계산과 감면 적용은 개별 상황에 따라 다르므로, 정확한 내용은 국세청 홈택스(국번없이 126) 또는 세무 전문가와 확인하시기 바랍니다.</p>
 <p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-24</p>
