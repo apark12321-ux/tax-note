@@ -34,6 +34,11 @@ const ICON: Record<string, (p: Pal) => string> = {
   invoice: (p) => `<g transform="translate(256 46)"><rect x="0" y="4" width="92" height="116" rx="7" fill="#fff"/><rect x="14" y="22" width="40" height="7" rx="3.5" fill="${p.bg2}"/><rect x="14" y="40" width="64" height="5" rx="2.5" fill="${p.light}"/><rect x="14" y="52" width="64" height="5" rx="2.5" fill="${p.light}"/><rect x="14" y="64" width="44" height="5" rx="2.5" fill="${p.light}"/><circle cx="64" cy="92" r="20" fill="none" stroke="${p.accent}" stroke-width="5"/><text x="64" y="99" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="800" fill="${p.accent}">%</text></g>`,
   payout: (p) => `<g transform="translate(252 44)"><circle cx="40" cy="30" r="22" fill="${p.accent}"/><text x="40" y="38" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="800" fill="${p.bg}">&#8361;</text><path d="M2 116 q0 -34 36 -34 h28 q22 0 22 -14 q0 -8 -10 -8 h-30" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round"/><path d="M48 60 h22 q12 0 12 10" fill="none" stroke="${p.light}" stroke-width="8" stroke-linecap="round"/></g>`,
   deadline: (p) => `<g transform="translate(256 48)"><circle cx="52" cy="60" r="50" fill="#fff"/><circle cx="52" cy="60" r="50" fill="none" stroke="${p.light}" stroke-width="3"/><circle cx="52" cy="60" r="6" fill="${p.bg2}"/><path d="M52 60 V28" stroke="${p.bg2}" stroke-width="6" stroke-linecap="round"/><path d="M52 60 L74 70" stroke="${p.accent}" stroke-width="6" stroke-linecap="round"/><g transform="translate(86 4)"><circle cx="14" cy="14" r="14" fill="${p.accent}"/><rect x="11" y="6" width="6" height="11" rx="3" fill="${p.bg}"/><circle cx="14" cy="20" r="2.4" fill="${p.bg}"/></g></g>`,
+  house: (p) => `<g transform="translate(252 46)"><path d="M52 6 L102 46 H2 Z" fill="${p.accent}"/><rect x="14" y="46" width="76" height="66" fill="#fff"/><rect x="40" y="74" width="24" height="38" fill="${p.bg2}"/><rect x="24" y="58" width="18" height="14" rx="2" fill="${p.light}"/><rect x="62" y="58" width="18" height="14" rx="2" fill="${p.light}"/><circle cx="52" cy="34" r="9" fill="#fff"/><text x="52" y="39" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="800" fill="${p.bg}">&#8361;</text></g>`,
+  family2: (p) => `<g transform="translate(250 52)"><circle cx="26" cy="30" r="16" fill="#fff"/><rect x="8" y="50" width="36" height="44" rx="16" fill="#fff"/><circle cx="64" cy="34" r="13" fill="${p.light}"/><rect x="50" y="50" width="28" height="40" rx="13" fill="${p.light}"/><circle cx="92" cy="44" r="10" fill="${p.accent}"/><rect x="80" y="58" width="24" height="32" rx="11" fill="${p.accent}"/></g>`,
+  accounts: (p) => `<g transform="translate(250 54)"><rect x="0" y="0" width="68" height="46" rx="7" fill="#fff"/><rect x="0" y="12" width="68" height="10" fill="${p.bg2}"/><rect x="10" y="30" width="22" height="8" rx="2" fill="${p.accent}"/><rect x="40" y="58" width="68" height="46" rx="7" fill="${p.light}"/><rect x="40" y="70" width="68" height="10" fill="${p.bg}"/><rect x="50" y="88" width="22" height="8" rx="2" fill="${p.accent}"/><path d="M70 30 q22 4 22 24" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="2 5"/></g>`,
+  scale: (p) => `<g transform="translate(254 50)"><rect x="48" y="8" width="6" height="92" rx="3" fill="#fff"/><rect x="24" y="100" width="54" height="8" rx="4" fill="#fff"/><path d="M51 16 L18 44 H84 Z" fill="none" stroke="#fff" stroke-width="4"/><path d="M14 44 a14 14 0 0 0 28 0 Z" fill="${p.accent}"/><path d="M60 44 a14 14 0 0 0 28 0 Z" fill="${p.light}"/><line x1="51" y1="16" x2="51" y2="8" stroke="#fff" stroke-width="4"/></g>`,
+  refund: (p) => `<g transform="translate(254 48)"><circle cx="52" cy="56" r="46" fill="#fff"/><text x="52" y="56" text-anchor="middle" dominant-baseline="central" font-family="sans-serif" font-size="40" font-weight="800" fill="${p.accent}">&#8361;</text><path d="M86 22 a44 44 0 0 1 10 30" fill="none" stroke="${p.light}" stroke-width="6" stroke-linecap="round"/><path d="M86 8 L98 22 L84 30" fill="none" stroke="${p.light}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>`,
 };
 
 // ── 글 id → [일러스트, 짧은 라벨] ──────────────────────────
@@ -47,12 +52,17 @@ const ART_MAP: Record<string, [string, string]> = {
   "deduct-3": ["card", "신용카드 공제"],
   "deduct-4": ["growth", "국민성장펀드"],
   "deduct-5": ["mededu", "의료비·교육비"],
+  "deduct-6": ["house", "월세 세액공제"],
+  "deduct-7": ["family2", "자녀세액공제"],
   "save-1": ["umbrella", "노란우산공제"],
   "save-2": ["laptop", "프리랜서 경비"],
   "save-3": ["reduce", "과세표준 낮추기"],
+  "save-4": ["accounts", "사업용 계좌·카드"],
   "biz-1": ["shop", "사업자등록"],
   "biz-2": ["invoice", "부가가치세"],
   "biz-3": ["payout", "원천징수 3.3%"],
+  "biz-4": ["scale", "간이 vs 일반과세"],
+  "income-5": ["refund", "환급·분납"],
 };
 
 // 카테고리별 기본 일러스트 (미등록 글 대비)
