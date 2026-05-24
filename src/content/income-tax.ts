@@ -259,7 +259,7 @@ export const incomeTaxPosts: Post[] = [
       "2026년 종합소득세 신고는 6월 1일까지입니다. 기한을 놓쳐도 기한 후 신고로 가산세를 줄일 수 있어요. 무신고·납부지연 가산세율과 감면 기준을 정리했습니다.",
     category: "종합소득세",
     author: "절세노트 편집팀",
-    date: "2026-05-22",
+    date: "2026-05-24",
     image:
       "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -322,7 +322,7 @@ export const incomeTaxPosts: Post[] = [
 <p>마지막으로 강조하고 싶은 점이 있습니다. 3.3%가 원천징수된 프리랜서나 경비·공제가 많은 분은 오히려 세금을 돌려받는 경우가 많습니다. 그런데 신고하지 않으면 환급도 받을 수 없습니다. "낼 세금이 없을 것 같아서" 신고를 건너뛰면 받을 수 있는 환급금까지 놓치는 셈입니다. 마감 전에 꼭 한 번 계산해 보세요. 신고는 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스</a>에서 직접 할 수 있습니다.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 기준 일반 정보이며 세무 상담을 대체하지 않습니다. 가산세 계산과 감면 적용은 개별 상황에 따라 다르므로, 정확한 내용은 국세청 홈택스(국번없이 126) 또는 세무 전문가와 확인하시기 바랍니다.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-22</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-24</p>
 `,
   },
 ];

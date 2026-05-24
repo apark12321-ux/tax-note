@@ -67,9 +67,34 @@ ok(`카테고리 분포: ${JSON.stringify(catCounts)}`);
 const authors = [...new Set([...srcAll.matchAll(/author:\s*"([^"]+)"/g)].map((m) => m[1]))];
 ok(`저자: ${authors.join(", ")}`);
 
-// 6) 발행일 존재
+// 6) 발행일 존재 + 날짜 정합성 검증
 const dates = [...srcAll.matchAll(/date:\s*"(\d{4}-\d{2}-\d{2})"/g)].map((m) => m[1]);
-ok(`발행일 ${dates.length}건 (범위 ${dates.sort()[0]} ~ ${dates.sort().slice(-1)[0]})`);
+ok(`발행일 ${dates.length}건 (범위 ${dates.slice().sort()[0]} ~ ${dates.slice().sort().slice(-1)[0]})`);
+
+// 6-1) 미래 날짜 차단 (가장 중요 — 구글이 오류 신호로 판단)
+const TODAY = new Date().toISOString().slice(0, 10);
+const futureDates = dates.filter((d) => d > TODAY);
+if (futureDates.length)
+  err(`미래 날짜 발견(오늘=${TODAY}): ${[...new Set(futureDates)].join(", ")} — 발행일은 오늘 이전이어야 합니다`);
+else ok(`미래 날짜 없음 (오늘=${TODAY} 기준)`);
+
+// 6-2) 글 단위 date / updated / 본문 "최종 업데이트" 정합성
+let dateIssues = 0;
+const objBlocks = srcAll.split(/\n\s{2,4}\{\s*\n/).slice(1);
+for (const b of objBlocks) {
+  const id = b.match(/id:\s*"([^"]+)"/)?.[1];
+  if (!id) continue;
+  const date = b.match(/date:\s*"(\d{4}-\d{2}-\d{2})"/)?.[1];
+  const updated = b.match(/updated:\s*"(\d{4}-\d{2}-\d{2})"/)?.[1];
+  const bodyUpdated = b.match(/최종 업데이트:\s*(\d{4}-\d{2}-\d{2})/)?.[1];
+  if (!date) continue;
+  if (updated && updated < date)
+    (dateIssues++, err(`[${id}] updated(${updated})가 date(${date})보다 빠름`));
+  const expected = updated || date;
+  if (bodyUpdated && bodyUpdated !== expected)
+    (dateIssues++, err(`[${id}] 본문 '최종 업데이트'(${bodyUpdated}) != 메타 날짜(${expected})`));
+}
+if (!dateIssues) ok("날짜 정합성 OK (updated>=date, 본문 표기=메타 일치)");
 
 // 7) 면책 문구 존재 (각 글에 "2026년 기준" 또는 면책 표현)
 const disclaimers = (srcAll.match(/세무 상담|참고용|일반 정보|일반적인 세무 정보|상담을 대체/g) || []).length;

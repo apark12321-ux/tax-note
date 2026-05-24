@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "verify": "node scripts/verify-content.mjs",
-    "postbuild": "node scripts/sitemap.mjs && node scripts/prerender.mjs"
+    "postbuild": "node scripts/sitemap.mjs && node scripts/prerender.mjs",
+    "prebuild": "node scripts/verify-content.mjs"
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.9",
