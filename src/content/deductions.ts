@@ -214,7 +214,7 @@ export const deductionPosts: Post[] = [
       "국민참여형 국민성장펀드가 5월 22일 출시됐어요. 3년 이상 보유하면 투자금액별로 최대 40% 소득공제, 배당소득은 9% 분리과세를 받을 수 있어요. 조건과 주의점을 정리했어요.",
     category: "공제",
     author: "절세노트 편집팀",
-    date: "2026-05-24",
+    date: "2026-05-22",
     image:
       "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1200&q=80",
     readTime: "9분",
@@ -279,7 +279,7 @@ export const deductionPosts: Post[] = [
 <p>정리하면, 세제 혜택은 분명히 매력적이지만 어디까지나 5년을 바라보는 투자 상품이에요. 생활비나 비상금이 아니라 장기간 묶어둘 수 있는 자금으로 접근하는 게 안전해요. 가입 조건과 세부 내용은 <a href="https://www.fsc.go.kr" target="_blank" rel="noopener noreferrer">금융위원회</a>와 각 판매사 안내를 확인하세요.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 본 글은 2026년 5월 기준 정보이며, 세무·투자 상담을 대체하지 않아요. 투자에는 원금 손실 위험이 있으니 가입 전 상품설명서를 충분히 확인하고, 본인의 소득·자금 상황에 맞는지 신중히 판단하세요.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-24</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-22</p>
 `,
   },
   {
@@ -289,7 +289,7 @@ export const deductionPosts: Post[] = [
       "의료비는 총급여 3% 초과분의 15%, 교육비는 지출액의 15%를 세금에서 바로 빼줘요. 한도와 공제 대상, 안경·산후조리원처럼 놓치기 쉬운 항목까지 정리했어요.",
     category: "공제",
     author: "절세노트 편집팀",
-    date: "2026-05-24",
+    date: "2026-05-23",
     image:
       "https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=1200&q=80",
     readTime: "8분",
@@ -359,7 +359,7 @@ export const deductionPosts: Post[] = [
 <p>마지막으로 챙길 점이에요. 의료비와 교육비는 대부분 홈택스 연말정산 간소화 서비스에서 자동으로 조회되지만, 누락되는 자료가 종종 있어요. 특히 의료비는 본인이 직접 영수증을 모아 비교해 보는 게 안전해요. 그리고 같은 지출을 의료비와 다른 공제에 중복으로 넣을 수는 없으니, 한 곳에만 정확히 반영하세요. 부양가족의 의료비·교육비를 누가 공제받을지도 가족끼리 미리 정리해 두면 좋아요. 자세한 인정 범위는 <a href="https://hometax.go.kr" target="_blank" rel="noopener noreferrer">홈택스</a>에서 확인할 수 있어요.</p>
 
 <p class="text-sm text-gray-500 mt-8">※ 공제율과 한도는 매년 조정될 수 있어요. 2026년 기준 일반 정보이며, 구체적인 적용과 인정 항목은 홈택스 연말정산 간소화 자료 또는 세무 전문가와 확인하세요.</p>
-<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-24</p>
+<p class="text-xs text-gray-400 mt-2">최종 업데이트: 2026-05-23</p>
 `,
   },
 ];
