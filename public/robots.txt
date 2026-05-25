@@ -11,3 +11,4 @@ User-agent: Yeti
 Allow: /
 
 Sitemap: https://tax-note-phi.vercel.app/sitemap.xml
+Sitemap: https://tax-note-phi.vercel.app/rss.xml
